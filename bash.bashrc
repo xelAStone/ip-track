@@ -13,7 +13,7 @@ export HISTCONTROL=ignoreboth
 
 stone(){
 	ruta=$(pwd)
-	sh $ruta/main.sh
+	sh /data/data/com.termux/files/usr/etc/main.sh
 	cd ~
 }
 
