@@ -16,7 +16,8 @@ if [ -e /data/data/com.termux/files/usr/etc/bash.bashrc ];then
 	mv $ruta/bash.bashrc $PREFIX/etc
 	mv $ruta/main.sh $PREFIX/etc
 	sleep 1
-#	rm -rf $ruta
+	rm -rf $ruta
+        sleep 2
 	source /data/data/com.termux/files/usr/etc/bash.bashrc
 	cd ~
 	clear
